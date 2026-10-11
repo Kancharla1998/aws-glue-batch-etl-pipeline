@@ -1,0 +1,1 @@
+apache-airflow[amazon]==3.3.2

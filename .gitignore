@@ -1,0 +1,23 @@
+# Python virtual environment
+myenv/
+venv/
+__pycache__/
+
+# Airflow runtime files (machine-specific, regenerated automatically)
+airflow_orders/logs/
+airflow_orders/airflow.db*
+airflow_orders/airflow.cfg
+airflow_orders/simple_auth_manager_passwords.json.generated
+airflow_orders/docker-compose.yaml
+
+# Generated data (recreate with generate_orders_data.py)
+*.csv
+
+# Secrets: never commit credentials
+.aws/
+*.pem
+.env
+
+# macOS / editor files
+.DS_Store
+.vscode/
